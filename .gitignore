@@ -145,3 +145,32 @@ cython_debug/
 # others
 work_dir/
 data/
+
+*.pyc
+
+
+# Ignorar datasets y videos
+dataset/
+*.mp4
+*.avi
+
+# Ignorar resultados pesados
+submit/
+*.out
+*.err
+
+# *.sh
+
+# Ignorar checkpoints y modelos
+checkpoints/
+*.pth
+*.pt
+
+# Ignorar carpetas de entorno python
+__pycache__/
+*.pyc*.pth
+*.npy
+*.out
+checkpoints/
+dataset/
+__pycache__/
