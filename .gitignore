@@ -178,3 +178,7 @@ __pycache__/
 # para no subir la graficas generadas
 *.png
 *.jpg
+
+# ignora la carpeta de videos y frames
+dataset/ssv2_luis/video/
+dataset/ssv2_luis/frames/
